@@ -1114,3 +1114,12 @@ Entries:
   id: 6618
   time: '2026-01-29T17:22:08.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/394
+- author: ShepardToTheStars
+  changes:
+    - type: Fix
+      message: >-
+        Editing the NanoChat number on an agent ID will no longer cause the
+        server to crash and burn.
+  id: 6619
+  time: '2026-01-29T18:05:06.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/398
