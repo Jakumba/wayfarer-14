@@ -1158,3 +1158,10 @@ Entries:
   id: 6622
   time: '2026-01-31T01:03:03.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/408
+- author: drraccoony
+  changes:
+    - type: Fix
+      message: Experimental Welders cannot be recycled to address exploit
+  id: 6623
+  time: '2026-01-31T01:03:47.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/406
