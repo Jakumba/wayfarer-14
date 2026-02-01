@@ -57,4 +57,9 @@ public sealed partial class BallisticAmmoProviderComponent : Component
     /// </summary>
     [DataField]
     public TimeSpan FillDelay = TimeSpan.FromSeconds(0.5);
+
+    /// <summary>
+    /// Wayfarer - Does the entity need to be manually cycled to load the next round?
+    /// </summary>
+    public bool AutoCycle = true;
 }

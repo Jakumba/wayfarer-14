@@ -288,6 +288,11 @@ public abstract partial class SharedGunSystem
                 entity = component.Entities[^1];
 
                 args.Ammo.Add((entity, EnsureShootable(entity)));
+
+                // Wayfarer - Do not remove spent ammo from the gun, if it does not automatically cycle.
+                if (!component.AutoCycle)
+                    break;
+
                 component.Entities.RemoveAt(component.Entities.Count - 1);
                 DirtyField(uid, component, nameof(BallisticAmmoProviderComponent.Entities));
                 Containers.Remove(entity, component.Container);
@@ -298,6 +303,13 @@ public abstract partial class SharedGunSystem
                 DirtyField(uid, component, nameof(BallisticAmmoProviderComponent.UnspawnedCount));
                 entity = PredictedSpawnAtPosition(component.Proto, args.Coordinates);
                 args.Ammo.Add((entity, EnsureShootable(entity)));
+
+                // Wayfarer - Put the spent round back into the gun if can't autocycle ammo.
+                if (!component.AutoCycle)
+                {
+                    component.Entities.add(entity);
+                    Containers.Insert(entity, component.Container);
+                }
             }
         }
 
