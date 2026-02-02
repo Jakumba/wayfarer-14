@@ -1204,3 +1204,10 @@ Entries:
   id: 6628
   time: '2026-02-02T05:23:21.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/422
+- author: drraccoony
+  changes:
+    - type: Tweak
+      message: Changed Deposit Box Blacklist
+  id: 6629
+  time: '2026-02-02T05:23:48.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/419
