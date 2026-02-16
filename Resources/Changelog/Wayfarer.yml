@@ -1499,3 +1499,12 @@ Entries:
   id: 6665
   time: '2026-02-14T23:51:28.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/492
+- author: Eillyrea
+  changes:
+    - type: Fix
+      message: >-
+        Fixed minor radar rendering errors involving half-tilt and half-width
+        tile variants.
+  id: 6666
+  time: '2026-02-16T21:43:15.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/472
