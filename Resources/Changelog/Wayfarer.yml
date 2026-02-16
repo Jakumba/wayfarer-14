@@ -1435,3 +1435,10 @@ Entries:
   id: 6657
   time: '2026-02-12T20:22:25.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/469
+- author: Eillyrea
+  changes:
+    - type: Fix
+      message: Handheld mass scanner no longer forced to hand
+  id: 6658
+  time: '2026-02-13T18:26:06.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/471
