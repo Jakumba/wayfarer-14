@@ -1508,3 +1508,10 @@ Entries:
   id: 6666
   time: '2026-02-16T21:43:15.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/472
+- author: Eillyrea
+  changes:
+    - type: Tweak
+      message: Disablers / lasers now pass through windows
+  id: 6667
+  time: '2026-02-16T22:05:58.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/476
